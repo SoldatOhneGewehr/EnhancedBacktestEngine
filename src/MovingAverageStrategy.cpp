@@ -26,7 +26,7 @@ std::unique_ptr<Order> MovingAverageStrategy::generateSignal(const Bar& bar) {
     double avg = sum / period_;
 
     double portfolioValue = portfolio_->getValue("BTC-USD", price);
-    printf("Portfolio Value: %.2f, Cash: %.2f, Price: %.2f, MA: %.2f, Date: %s\n", portfolioValue, portfolio_->getCash(), price, avg, bar.date.c_str());
+    //printf("Portfolio Value: %.2f, Cash: %.2f, Price: %.2f, MA: %.2f, Date: %s\n", portfolioValue, portfolio_->getCash(), price, avg, bar.date.c_str());
     double fraction = 1;
     int qty = static_cast<int>((portfolioValue * fraction) / price);
     if (qty == 0) return nullptr;

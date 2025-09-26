@@ -1,0 +1,3 @@
+/home/vboxuser/Desktop/EnhancedBacktestEngine/build/CMakeFiles/backtest.dir
+/home/vboxuser/Desktop/EnhancedBacktestEngine/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/Desktop/EnhancedBacktestEngine/build/CMakeFiles/rebuild_cache.dir
